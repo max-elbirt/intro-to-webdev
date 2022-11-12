@@ -1,0 +1,23 @@
+{
+  "name": "intro-to-webdev",
+  "version": "1.0.0",
+  "description": "Json Package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/max-elbirt/intro-to-webdev.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/max-elbirt/intro-to-webdev/issues"
+  },
+  "homepage": "https://github.com/max-elbirt/intro-to-webdev#readme",
+  "dependencies": {
+    "imagemin": "^8.0.1",
+    "imagemin-webp": "^7.0.0"
+  }
+}

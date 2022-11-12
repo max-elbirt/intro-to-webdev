@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+    <title>Max's Site</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kolker+Brush&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body class>
+    <div class="container">
+        <header><a href="#welcome"><h1>WebDev Project &#129433</h1></a><div class="login_logo">&#128017</div></header>
+        <nav>
+            <ul>
+                <li><a>Navigation</a></li>
+                <li><a href="#welcome">welcome</a></li>
+                <li><a href="#book">my favourite book</a></li>
+                <li><a href="#place">a place i enjoyed</a></li>
+                <li><a href="#form">feedback form</a></li>
+                <li><a href="/schools.html" target="_blank">My Schools ⧉</a></li>
+                <li><a href="https://github.com/max-elbirt/intro-to-webdev" target="_blank">The Project on Github<br>
+                    ⧉
+                    </a></li>
+            </ul>
+        </nav>
+        <main>
+            <div class="main_container" id="welcome">
+                <br><br>
+                <h2>welcome to my site</h2><br>
+                <h3>My name is Max</h3><br><br>
+                <h3>I'm a WebDev Bootcamp student!</h3>
+            </div>
+            <br>
+
+            <div class="main_container" id="book">
+                <section>
+
+                    <h2>My Favourite Book</h2>
+
+                    <h3>Iron Gustav</h3>
+
+                    <p>
+                    "Iron Gustav" tells the story of a german patriarch and his family before, during and after the first
+                    world war. The war plunges his life and family into chaos, and changes everything Gustav knew about
+                    his country, and his understanding of happiness, parenthood and true misery and hardship.
+                    </p>
+
+                    <h3>why i like this book</h3>
+
+                    <p>
+                    I like "Iron Gustav" because of its overall anti-war message, conveying to the reader the terrible
+                     hardships of war on the battlefield and at home.
+                    </p>
+
+                    <h3>a quote from the book</h3>
+
+                    <p>
+                    A quote from the book:
+                    You only want to tyrannise, you’re only happy when we’re all trembling before you. You’re just like
+                    your Kaiser. He who doesn’t obey is shot down…
+                    </p>
+
+                </section>
+                <div class="pic_link">
+                <img src="./graphic/gustav_cover.jpg">
+                    <button><a href="https://www.amazon.com/Iron-Gustav-Chronicle-Penguin-Classics/dp/014119653X"
+                               target="_blank">Buy Iron Gustav on Amazon</a></button>
+                </div>
+            </div>
+            <br><br><br>
+
+            <div class="place_container" id="place">
+                <section>
+                    <h2>A place I Enjoyed Visiting</h2>
+                    <h3>Zichron Yaakov</h3>
+                    <p>
+                    Zichron Yaakov is one of the first modern settlements in Israel. The town was founded in 1882, and
+                    in the present day is known for its views, fresh air and vineyards.
+                    </p>
+                    <h3>why i like this place</h3>
+                    <p>
+                    As someone who was raised in Tel Aviv (a comparatively major city) I enjoyed the feeling of a small
+                    town atop a mountain and somewhat removed from the rest of the world.
+                    </p>
+                </section>
+                <img src="graphic/Zichron-yaakov_Israel_Konstantnin_Shutterstock.jpg" class="big_pic1">
+                <img src="graphic/zichron_yaakov_2.jpg" class="big_pic2">
+                <img src="graphic/zichron_yaakow_3.jpg" class="big_pic3">
+                <img src="graphic/zichron_yaakov_4.jpg" class="big_pic4">
+                <img src="graphic/zichron_yaakow_5.jpg" class="big_pic5">
+
+                    <div class="gallery">
+                        <img src="graphic/Zichron-yaakov_Israel_Konstantnin_Shutterstock.jpg" class="pic1">
+                        <img src="graphic/zichron_yaakov_2.jpg" class="pic2">
+                        <img src="graphic/zichron_yaakow_3.jpg" class="pic3">
+                        <img src="graphic/zichron_yaakov_4.jpg" class="pic4">
+                        <img src="graphic/zichron_yaakow_5.jpg" class="pic5">
+                    </div>
+                 <button><a href="https://goo.gl/maps/m3eASw9qQsZGVce49" target="_blank">Open Zichron Yaakov on Google
+                     Maps</a></button>
+
+            </div>
+
+
+
+<!--            Form Area-->
+
+            <div id="form" class="form_container">
+                <h3>Feedback Form</h3>
+                <form method="get">
+<!--                    Form Part 1-->
+                            <div class="myform">
+                            <label for="name">Full Name:</label>
+                            <input type="text" id="name" name="name">
+
+                            <label for="phone">Phone:</label>
+                            <input type="tel" id="phone" name="phone" pattern="[0-9]{10}">
+
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email">
+
+                            <label for="bday">Date of birth:</label>
+                            <input type="date" id="bday" name="bday" value="2000-01-01" min="1900-01-01" max="2050-01-01">
+                            </div>
+                        <br>
+<!--                        Form Part 2-->
+                    <div class="myform_v2">
+
+                        <div class="myform_v2_q1">
+
+                            <p>Rating:</p>
+                            <div class="radio">
+                                <input type="radio" id="quest1" name="rating" value="1">
+                                <label for="quest1">1</label>
+                            </div>
+                            <div class="radio">
+                                <input type="radio" id="quest1" name="rating" value="1">
+                                <label for="quest1">2</label>
+                            </div>
+                            <div class="radio">
+                                <input type="radio" id="quest1" name="rating" value="1">
+                                <label for="quest1">3</label>
+                            </div>
+                            <div class="radio">
+                                <input type="radio" id="quest1" name="rating" value="1">
+                                <label for="quest1">4</label>
+                            </div>
+                            <div class="radio">
+                                <input type="radio" id="quest1" name="rating" value="1">
+                                <label for="quest1">5</label>
+                            </div>
+                        </div>
+                        <div class="myform_v2_q2">
+                            <label for="how_find">How did you find this website?</label>
+                            <select id="how_find" name="how_find">
+                                <option value="GitHub">Github</option>
+                                <option value="Linkedin">Linkedin</option>
+                                <option value="WebDev">WebDev</option>
+                                <option value="Google">Google</option>
+                                <option value="Other">Other</option>
+                            </select>
+                            </div>
+
+                        <div class="myform_v2_q3">
+                            <label for="comments">Your message:</label>
+                            <textarea id="comments" name="comments" cols="50" rows="10" dir="ltr"
+                                      placeholder="write a short message"></textarea>
+                        </div>
+
+                    </div>
+<!--                    Form Part 3 - submit and reset-->
+                    <div class="myform_v3">
+                        <input type="submit">
+                        <input type="reset">
+                    </div>
+
+                </form>
+            </div>
+        </main>
+        <footer>
+            Max Elbirt<br>
+            <a href="mailto:maxelbirt@gmail.com?subject:Mail fro WebDev"> maxelbirt@gmail.com</a>
+        </footer>
+    </div>
+</body>
+</html>
