@@ -137,6 +137,11 @@ main{
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    height: 100%;
+}
+
+#welcome section{
+    height:100%;
 }
 
 /*Book Section*/
@@ -145,11 +150,13 @@ main{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 100%;
 }
 
 #book img{
     float: right;
     margin-right: 3em;
+    max-width: 200px;
 }
 
 #book p{
@@ -454,7 +461,7 @@ footer a{
 
 /*Media Query for Mobile portrait*/
 
-@media only screen and (max-width:600px){
+@media only screen and (max-width:950px){
     .container{
         display: flex;
         flex-direction: column;
